@@ -1,0 +1,34 @@
+{
+  "raw": {
+    "val_loss": 0.007336083019601336,
+    "val_mape": 3.982885926961899,
+    "val_score_100_minus_mape": 96.0171140730381,
+    "val_within_tol": 0.17192895905278738,
+    "val_r2_log": 0.9977939331438392,
+    "test_loss": 0.007284473318731836,
+    "test_mape": 3.9744336158037186,
+    "test_score_100_minus_mape": 96.02556638419628,
+    "test_within_tol": 0.17000780005200034,
+    "test_r2_log": 0.9977828348055482
+  },
+  "calibrated": {
+    "test_mape": 2.602430400587989,
+    "test_score_100_minus_mape": 97.39756959941201,
+    "test_within_tol": 0.3011420076133841,
+    "test_r2_log": 0.9985692176142332,
+    "calibrator": {
+      "type": "PCHIP_monotone_extended_knots",
+      "fit_split": "validation",
+      "apply_split": "test",
+      "bins": 60,
+      "min_bin": 20,
+      "knots_file": "smooth_cal_knots_extended.json"
+    }
+  },
+  "counts": {
+    "N_total_after_filter": 999990,
+    "N_train": 699993,
+    "N_val": 149998,
+    "N_test": 149999
+  }
+}
