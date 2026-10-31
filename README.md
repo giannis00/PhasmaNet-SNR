@@ -1,4 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/phasmanet_symbol_dark.svg">
+    <img src="assets/phasmanet_symbol.svg" alt="PhasmaNet symbol" width="160">
+  </picture>
+</p>
 
+<h1 align="center">PhasmaNet</h1>
 
 ## Dataset Generation
 
